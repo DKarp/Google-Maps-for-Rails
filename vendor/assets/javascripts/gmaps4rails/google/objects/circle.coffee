@@ -29,6 +29,7 @@ class @Gmaps4Rails.Google.Circle extends Gmaps4Rails.Common
         fillOpacity:   circle.fillOpacity   || @controller.circles_conf.fillOpacity
         fillColor:     circle.fillColor     || @controller.circles_conf.fillColor
         clickable:     circle.clickable     || @controller.circles_conf.clickable
+        editable:      circle.editable      || @controller.circles_conf.editable
         zIndex:        circle.zIndex        || @controller.circles_conf.zIndex
         radius:        circle.radius
 
